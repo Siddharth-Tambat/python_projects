@@ -1,0 +1,3 @@
+Use this automated python script to track news related to any big moves in your favourite stocks
+You can schedule to run this code in pythonanywhere.com
+You would need to add your email id, news api key and stock api key from the respective websites
