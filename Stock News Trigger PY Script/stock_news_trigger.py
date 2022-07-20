@@ -81,7 +81,7 @@ if percent_change > STOCK_PERCENT_CHANGE or percent_change < (STOCK_PERCENT_CHAN
     connection.login(user=EMAIL, password=PASSWORD)
     connection.sendmail(
         from_addr=EMAIL,
-        to_addrs="stambat4@gmail.com",
+        to_addrs="ENTER TO EMAIL ID",
         msg=f"Subject:{COMPANY_NAME} Stock Movement {symbol(percent_change)} {percent_change}%\n\n"
             f"\n{email_body}"
             f"\n\nHappy Investing!!!")
